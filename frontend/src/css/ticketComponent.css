@@ -1,0 +1,64 @@
+.ticket-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .ticket-box-header {
+    font-size:large;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .ticket-box-content {
+    padding: 20px;
+  }
+  
+  .ticket-info-item {
+    margin-bottom: 10px;
+  }
+  
+  .ticket-info-item strong {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .stateblock{
+    position:absolute;
+    right: 20px;
+    top: 150px;
+    padding: 10px;
+
+  }
+  .stateblock :hover{
+    cursor: pointer;
+  }
+  .openedstate{
+    padding: 10px;
+    color: white;
+    background-color: red;
+  }
+
+  .workinprogressstate{
+    padding: 10px;
+    color: white;
+    background-color: orange;
+  }
+
+  .closedstate{
+    color: white;
+    padding: 10px;
+    background-color:green;
+  }
+
+  .pendingstate{
+    color: white;
+    padding: 10px;
+    background-color:purple;
+  }
+
+  .assignedperson{
+    color: blue;
+  }

@@ -1,0 +1,17 @@
+.TempComponent {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Adjust height as needed */
+  }
+  
+  .box {
+    width: 600px; /* Adjust width as needed */
+    height: 600px; /* Adjust height as needed */
+    background-color: #f4f2f2; /* Sample background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+  }
+  
